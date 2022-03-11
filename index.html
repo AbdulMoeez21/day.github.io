@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <!-- <link rel="stylesheet" href="/bootstrap-5.1.0-dist/css/bootstrap.min.css"/> -->
+    <link rel="stylesheet" href="bootstrap.min.js">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <title>Day</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .about:hover,
+      .service:hover,
+      .portfolio:hover,
+      .price:hover,
+      .team:hover,
+      .contact:hover {
+        background-color: #cc1616;
+        
+      }
+     
+.get:hover{
+    background-color: #cc1616; 
+    transition: 0.7s;
+   
+    
+}
+.card:hover{
+    color: white;
+background-color:#cc1616;
+transform: translate(10px,5px);
+transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+    @media only screen and (max-width:575px){
+
+        #hr{
+            
+            background-size:contain;
+        }
+        #wel{
+            margin-top: -40px;
+            text-align: center;
+        }
+        #cl{
+            margin-left: 130px;
+        }
+        #hrp{
+            padding-top: 20px;
+            text-align: center;
+        }
+        #gt{
+           margin-left: 37%;
+        }
+        #abt{
+            margin-top: 2%;
+        }
+        #log{
+            text-align: center;
+            font-size: 50px;
+            padding-bottom: 10px;
+        }
+        
+        #mp{
+            width: 400px;
+        }
+        #rv{
+            margin-top: 10vh;
+            width: 350px;
+        }
+        #img-2{
+            width: 140px;
+            transform: translateX(70px);
+        
+        }
+        #img-1{
+            width: 140px;
+            transform: translateX(30px);
+            
+        }
+        #price{
+            width: 400px;
+            margin-left: 45px;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+        #pbt{
+            margin-left: 15px;
+        }
+        #port{
+            text-align: center;
+        }
+        #port-1{
+           
+            margin-top: 20px;
+        }
+        #port-5,#port-4{
+            margin-top:120px;
+        }
+        #port-7{
+            margin-top: 100px;
+        }
+        #port-8{
+            margin-top:-15px;
+        }
+        
+       
+
+        #price-main{
+            margin-top: 2500px;
+        }
+        #tm{
+            width: 300px;
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+        #tm-2{
+            width: 300px;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        #tm-3{
+            width: 300px;
+            transform: translateX(52px);
+            margin-top: 20px;
+        }
+        #cont{
+            text-align: center;
+        }
+        #add{
+            width:400px ;
+        }
+        #map{
+            width: 400px;
+            transform: translateY(-200px);
+        }
+        #email{
+            
+            transform: translateY(365px);
+            width: 220px;
+            padding-right: 20px;
+        }
+        #call{
+            transform: translate(-20px,365px);
+            width: 160px;
+        }
+        #faram{
+            transform: translate(0px,35px);
+            
+        }
+
+
+    }
+    
+    </style>
+  </head>
+  <body>
+      <div class="container-fluid bg-dark">
+    <div class="container bg-dark">
+      <div class="row">
+        <div class="col-sm-5">
+          <h2 class="font-weight-bold pt-3 text-light" id="log">DAY</h2>
+        </div>
+        <div class="col-sm-7">
+          <ul class="nav navbar-nav navbar-expand-lg navbar-collapse">
+            <li
+              class="home  text-center pt-3   ml-2"
+              style="width: 17%; height: 12vh; background-color: #cc1616"
+            >
+              <a href="#hr" class="nav-link text-light" >HOME</a>
+            </li>
+            <li
+              class="about  text-center pt-3  ml-2" id="abt"
+              style="width: 18%; height: 12vh"
+            >
+              <a href="#ab" class="nav-link text-light ">ABOUT</a>
+            </li>
+            
+            <li
+              class="portfolio  text-center pt-3 ml-2"
+              style="width: 25%; height: 12vh"
+            >
+              <a href="#pp" class="nav-link text-light">PORTFOLIO</a>
+            </li>
+            <li
+              class="price  text-center pt-3 ml-2"
+              style="width: 23%; height: 12vh"
+            >
+              <a href="#price-main" class="nav-link text-light">PRICING</a>
+            </li>
+            <li
+              class="team  text-center pt-3 ml-2"
+              style="width: 17%; height: 12vh"
+            >
+              <a href="#tee" class="nav-link text-light">TEAM</a>
+            </li>
+            <li
+              class="contact  text-center pt-3 ml-2"
+              style="width: 23%; height: 12vh"
+            >
+              <a href="#cc" class="nav-link text-light">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="container-sm-fluid " id="hr" style="background: linear-gradient(rgba(0 0 0 /40%), rgb(0 0 0 /40%)), url(assets/img/hero-bg.jpg); height: 88vh; background-size: cover; background-attachment: fixed;" >
+        <div class="container ">
+        <div class="row" >
+            <div class="col-sm-8 text-light mt-5 mb-5 pt-5 pb-5" data-aos="fade-up" data-aos-duration="2000">
+<h1 class="display-sm-4 font-weight-bolder pt-5 mt-5" id="wel">WELCOME TO DAY</h1>
+<h5 class="font-weight-bolder " id="hrp">We are team of talented designers making websites with Bootstrap</h5>
+<button class="get btn border pr-3 pl-3 mt-2 text-light" id="gt" style="transition: 0.7s;"><a href="" class="text-decoration-none text-light">GET STARTED</a></button>
+
+            <div class="col-4"></div>
+           
+              
+          
+    </div>
+</div>
+</div>
+</div>
+
+
+    <div class=" container-sm mt-5 p-3" id="ab" >
+        <div class="row ">
+            <div class="col-sm-6 text-left" id="abt-main" data-aos="fade-right"
+           
+          >
+<h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+<p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="col-sm-12">
+    <img src="https://img.icons8.com/material-outlined/24/000000/checked--v1.png" class=" ml-n3 " style="color: #cc1616;"/>
+    <p class="ml-3 mt-n4">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="col-sm-12">
+    <img src="https://img.icons8.com/material-outlined/24/000000/checked--v1.png" class="ml-n3 "/>
+    <p class="ml-3 mt-n4">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+</div>
+<div class="col-sm-12">
+    <img src="https://img.icons8.com/material-outlined/24/000000/checked--v1.png" class="ml-n3 "/>
+    <p class="ml-3 mt-n4">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+</div>
+<div class="col-sm-12">
+    <p class="ml-n2 mt-n1">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+            </div>
+            <div class="col-sm-6" data-aos="fade-left"
+           
+            >
+<img src="assets/img/about.jpg" alt="" class="w-100" id="abt">
+            </div>
+        </div>
+    </div>
+
+<div class="container-sm mb-5" id="rv">
+    <div class="row">
+        <div class="card-deck ">
+            <div class="card pt-3" data-aos="fade-up" data-aos-duration="1000" style="box-shadow: 0px 2px 6px 0px; transition: 0.5s; ">
+                <div class="card-body " >
+                    <h4 >01</h4>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="par text-muted">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                </div>
+            </div>
+            <div class="card pt-3" data-aos="fade-up" data-aos-duration="2000" style="box-shadow: 0px 2px 6px 0px;  transition: 0.5s;">
+                <div class="card-body">
+                    <h4 >02</h4>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="text-muted">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                </div>
+            </div>
+            <div class="card pt-3" data-aos="fade-up" data-aos-duration="3000" style="box-shadow: 0px 2px 6px 0px;  transition: 0.5s;">
+                <div class="card-body">
+                    <h4 >03</h4>
+                    <h3>Lorem Ipsum</h3>
+                    <p class="text-muted">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                </div>
+            </div>
+        </div>
+       
+</div>
+</div>
+
+<div class="container-fluid  " >
+    <div class="row  pt-4" style="background-color:#F2F2F2">
+        
+        <div class="col-sm-1"></div>
+        
+        <div class="col-sm-1"></div>
+        <div class="col-sm-1 p-2 pb-2" id="img-2" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-1.png" alt="" class="w-100"  ></div>
+        <div class="col-sm-1 ml-5 p-2" id="img-2" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-2.png" alt="" class="w-100"  ></div>
+        <div class="col-sm-1 ml-5 p-2" id="img-1" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-3.png" alt="" class="w-100"  ></div>
+        <div class="col-sm-1 ml-5 p-2" id="img-1" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-4.png" alt="" class="w-100"  ></div>
+        <div class="col-sm-1 ml-5 p-2" id="img-1" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-5.png" alt="" class="w-100"  ></div>
+        <div class="col-sm-1 ml-5 p-2 pb-5" id="img-1" data-aos="zoom-in" data-aos-duration="1000"><img src="./assets/img/clients/client-6.png" alt="" class="w-100"  ></div>
+        
+        
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        
+        
+       
+        
+   </div>  
+    </div>
+
+
+    <div class="container-fluid mb-5 mt-5 " style="background: linear-gradient(rgba(0 0 0 /40%), rgb(0 0 0 /40%)), url(assets/img/cta-bg.jpg); background-attachment: fixed; height: 75vh; background-size: cover; transform: translateY(35px);">
+        <div class="container">
+            <div class="row " >
+                <div class="col-sm-12 text-light mt-5 mb-5 pt-5 pb-5 text-sm-center" data-aos="fade-up" data-aos-duration="2000">
+    <h2 class="display-sm-4 font-weight-bolder pt-5 " id="wel">CALL TO ACTION</h2>
+    <h5 class="font-weight-bolder " id="hrp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+    <button class="get btn border pr-3 pl-3 mt-4 text-light" id="cl" style="transition: 0.7s;"><a href="" class="text-decoration-none text-light">CALL TO ACTION</a></button>
+    
+              
+               
+                  
+              
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container mt-5 " style="height: 210vh;" id="pp">
+        <div class="row">
+            <div class="col-12 mb-5 text-sm-center " id="port">
+                <h1 class="mt-5 pt-3"> PORTFOLIO</h1>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+           
+            <div class="col-sm-4 " id="port-1" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-1.jpg" alt="" class="w-100" >
+            
+            </div>
+            <div class="col-sm-4" id="port-1" data-aos="fade-right" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-2.jpg" alt="" class="w-100"></div>
+            <div class="col-sm-4" id="port-1" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-3.jpg" alt="" class="w-100"></div>
+            <div class="col-sm-4" id="port-6" data-aos="fade-left" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-6.jpg" alt="" class="w-100 mt-4" ></div>
+            <div class="col-sm-4" id="port-5" data-aos="fade-down" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-5.jpg" alt="" class="w-100 mt-n5" style="transform: translateY(-50px);"></div>
+            <div class="col-sm-4" id="port-4" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-4.jpg" alt="" class="w-100 mt-n5"style="transform: translateY(-88px);"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" id="port-1" data-aos="fade-right" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-9.jpg" alt="" class="w-100 mt-n5"style="transform: translateY(-50px);"></div>
+            <div class="col-sm-4" id="port-7" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-7.jpg" alt="" class="w-100 mt-n5"style="transform: translateY(-380px);"></div>
+            
+            <div class="col-4" id="port-1" ></div>
+            <div class="col-4" id="port-1"></div>
+            <div class="col-sm-4" id="port-8" data-aos="fade-left" data-aos-duration="1000"><img src="assets/img/portfolio/portfolio-8.jpg" alt="" class="w-100 mt-n5"style="transform: translateY(-315px);"></div>
+            
+        </div>
+    </div>
+
+    <div class="container mb-5" id="price-main">
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h1>
+                    PRICING
+                </h1>
+                <p class="mb-5">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <div class="card-deck w-100">
+                <div class="card pt-3 pb-3" data-aos="fade-up"
+                data-aos-offset="300" data-aos-duration="1000"
+                data-aos-easing="ease-in-sine" id="price" style="box-shadow: 0px 2px 6px 0px; transition: 0.5s;">
+                    <div class="card-body text-sm-center">
+                        <h4 class="pb-3" >FREE</h4>
+                        <h1 class="mb-5"><small>$</small>0<small class="text-muted">/month</small></h1>
+                        <ul class="list-unstyled">
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li class="text-muted">Pharetra massa</li>
+                            <li class="text-muted">Massa ultricies mi</li>
+                        </ul>
+                        <button class="get btn border pr-3 pl-3 mt-2 " id="pbt" style="transition: 0.7s; background-color: #cc1616;"><a href="" class="text-decoration-none text-light">GET STARTED</a></button>
+                    </div>
+                </div>
+                <div class="card  pt-3"  data-aos="fade-down"
+                data-aos-offset="300" data-aos-duration="1000"
+                data-aos-easing="ease-in-sine"id="price" style="box-shadow: 0px 2px 6px 0px;  transition: 0.5s;">
+                    <div class="card-body  text-center">
+                        <h4 class="pb-3" >BUSSINESS</h4>
+                        <h1 class="mb-5"><small>$</small>19<small class="text-muted">/month</small></h1>
+                        <ul class="list-unstyled">
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li >Pharetra massa</li>
+                            <li class="text-muted">Massa ultricies mi</li>
+                        </ul>
+                        <button class="get btn border pr-3 pl-3 mt-2 " id="pbt" style="transition: 0.7s; background-color: #cc1616;"><a href="" class="text-decoration-none text-light">GET STARTED</a></button>
+                    </div>
+                </div>
+                <div class="card  pt-3 "  data-aos="fade-up" data-aos-duration="1000"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" id="price" style="box-shadow: 0px 2px 6px 0px;  transition: 0.5s;">
+                    <div class="card-body text-center">
+                        <h4 class="pb-3" >DEVELOPER</h4>
+                        <h1 class="mb-5"><small>$</small>29<small class="text-muted">/month</small></h1>
+                        <ul class="list-unstyled">
+                            <li>Aida dere</li>
+                            <li>Nec feugiat nisl</li>
+                            <li>Nulla at volutpat dola</li>
+                            <li class="text-muted">Pharetra massa</li>
+                            <li class="text-muted">Massa ultricies mi</li>
+                        </ul>
+                        <button class="get btn border pr-3 pl-3 mt-2 " id="pbt" style="transition: 0.7s; background-color: #cc1616;"><a href="" class="text-decoration-none text-light">GET STARTED</a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid w-100 mb-5" id="tee">
+        <div class="row ml-sm-5 text-center">
+         <div class="col-12">
+             <h1 class="mt-5">TEAM</h1>
+             <p class="mb-3">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+         </div>
+         <div class="col-1"></div>
+         <div class="col-sm-3 pt-3 pb-3 border mr-5" id="tm" data-aos="fade-right" data-aos-duration="1000"
+         data-aos-anchor-placement="top-bottom">
+             <img src="assets/img/team/team-1.jpg" alt="" class="w-75 mb-2 rounded-circle">
+             <h4>Walter White</h4>
+             <small class="font-italic">Chief Executive Officer</small>
+             <p class="text-muted font-italic">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+             <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png " class="ig"/>
+             <img src="https://img.icons8.com/material-rounded/24/000000/pinterest.png"/>
+             <img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"/>
+             <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+         </div>
+         <div class="col-sm-3 pt-3 pb-3 border" id="tm-2" data-aos="fade-down" data-aos-duration="1000"
+         data-aos-anchor-placement="top-bottom">
+            <img src="assets/img/team/team-2.jpg" alt="" class="w-75 mb-2 rounded-circle">
+            <h4>Sarah Jhinson</h4>
+            <small class="font-italic">Product Manager</small>
+            <p class="text-muted font-italic">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+            <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/pinterest.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+         </div>
+         <div class="col-sm-3 pt-3 pb-3 border ml-5" id="tm-3" data-aos="fade-left"
+         data-aos-duration="1000"
+         data-aos-anchor-placement="top-bottom">
+            <img src="assets/img/team/team-3.jpg" alt="" class="w-75 mb-2 rounded-circle">
+            <h4>William Anderson</h4>
+            <small class="font-italic">CTO</small>
+            <p class="text-muted font-italic">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+            <img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/pinterest.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"/>
+            <img src="https://img.icons8.com/material-rounded/24/000000/twitter.png"/>
+         </div>
+         <div class="col-1"></div>
+               
+           
+    </div>
+    </div>
+
+    <div class="container mt-5" id="cc">
+        <div class="row">
+            <div class="col-sm-12  text-center" id="cont" >
+                <h1 class="mt-5 ">CONTACT US</h1>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <div class="col-sm-5 pt-4 text-center ml-5 border" id="add" data-aos="fade-down" data-aos-duration="1000" style="box-shadow: 0px 0px 10px 0px">
+                <img src="https://img.icons8.com/ios/50/000000/worldwide-location.png"/>
+                <h3 class="pt-3" >OUR ADDRESS</h3>
+                <p >A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <div class="col-sm-3 pt-4 pb-4 text-center ml-5 border" id="email" data-aos="fade-down" data-aos-duration="1500" style="box-shadow: 0px 0px 10px 0px">
+                <img src="https://img.icons8.com/external-justicon-lineal-justicon/50/000000/external-email-notifications-justicon-lineal-justicon.png"/>
+                <h3 class="pt-3">Email Us</h3>
+                <p>contact@example.com</p>
+            </div>
+            <div class="col-sm-2 pt-4 pb-4 text-center ml-5 border " id="call" data-aos="fade-down" data-aos-duration="2000" style="box-shadow: 0px 0px 10px 0px">
+                <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/50/000000/external-contact-contact-flatart-icons-outline-flatarticons.png"/>
+                <h3 class="pt-3">Call Us</h3>
+                <p>+1 5589 55488 55</p>
+            </div>
+           
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2531389455903!2d-89.23024619999998!3d48.4516724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5923dbfe697737%3A0xc9d925c9bc9573fa!2s116+Bruce+St%2C+Thunder+Bay%2C+ON+P7A+5W6!5e0!3m2!1sen!2sca!4v1424272264157"
+                width="475" height="300" class="ml-5 mt-3 mb-3" id="map" data-aos="zoom-in" data-aos-duration="1000" style="box-shadow: 0px 0px 10px 0px" id="mp"></iframe>
+             
+                    <div class="container-sm-fluid mt-3 ml-5" id="faram" data-aos="zoom-in" data-aos-duration="1000" style="width: 46%; height: 48vh; box-shadow: 0px 1px 6px 0px;">
+                        <div class="row">
+                            <div class="col-sm-12 p-5 text-center" id="your">
+                    <form action="backend.php">
+                        <input type="text" placeholder="Your Name" class="border  " style="width: 39.5%;  outline: none; ">
+                        <input type="email" name="" id="" placeholder="Your Email" class="border ml-3"  style="width: 39.5%;  outline: none;">
+                        <input type="text " placeholder="Subject" class="border  mt-3" style="width: 83.75%;  outline: none;">
+                        <input type="text " placeholder="Message" class="border  pb-5 pr-5 mt-3" style="width: 83.75%; outline: none; "> 
+                        <input type="button" value="Submit" class="text-light border-0 pl-3 pr-3 pt-2 pb-2 mt-3" style="background-color: #cc1616; ">
+                    </form>
+                </div>
+            </div>
+        </div>
+            
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
